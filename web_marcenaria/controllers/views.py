@@ -9,3 +9,8 @@ def login():
 @app.route('/sistem-home')
 def home():
     return render_template('base.html')
+
+
+@app.route('/')
+def orcamento():
+    return ''
